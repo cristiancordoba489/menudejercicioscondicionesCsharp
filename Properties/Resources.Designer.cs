@@ -73,6 +73,16 @@ namespace EjemplomenuejercicioCondiciones.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dos {
+            get {
+                object obj = ResourceManager.GetObject("dos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenes {
             get {
                 object obj = ResourceManager.GetObject("imagenes", resourceCulture);
@@ -86,6 +96,16 @@ namespace EjemplomenuejercicioCondiciones.Properties {
         internal static System.Drawing.Bitmap jpg {
             get {
                 object obj = ResourceManager.GetObject("jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_button_computer_icons_exit_angle_rectangle_logo_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-button-computer-icons-exit-angle-rectangle-logo-thumbnail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

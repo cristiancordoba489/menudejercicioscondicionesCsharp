@@ -31,5 +31,13 @@ namespace EjemplomenuejercicioCondiciones
 
             Application.Exit();
         }
+
+        private void PB2_Click(object sender, EventArgs e)
+        {
+            Ejercicio2 ejercicio2 = new Ejercicio2();
+            ejercicio2.Show();
+            //para cuando le de salir me mande a la pantalla de inicio
+            this.Hide();
+        }
     }
 }

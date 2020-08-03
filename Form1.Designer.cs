@@ -29,9 +29,12 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.Pb1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnsalir = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.PB2 = new System.Windows.Forms.PictureBox();
+            this.Pb1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PB2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pb1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,17 +47,6 @@
             this.label1.Size = new System.Drawing.Size(258, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Menu de Opciones";
-            // 
-            // Pb1
-            // 
-            this.Pb1.Image = global::EjemplomenuejercicioCondiciones.Properties.Resources._7eec7f71ef48724b2e92e0798bed9ecc;
-            this.Pb1.Location = new System.Drawing.Point(159, 87);
-            this.Pb1.Name = "Pb1";
-            this.Pb1.Size = new System.Drawing.Size(100, 50);
-            this.Pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pb1.TabIndex = 1;
-            this.Pb1.TabStop = false;
-            this.Pb1.Click += new System.EventHandler(this.Pb1_Click);
             // 
             // label2
             // 
@@ -77,17 +69,52 @@
             this.btnsalir.UseVisualStyleBackColor = true;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(286, 177);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(470, 24);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Identifica si un numero es positivo o negativo";
+            // 
+            // PB2
+            // 
+            this.PB2.Image = global::EjemplomenuejercicioCondiciones.Properties.Resources.dos;
+            this.PB2.Location = new System.Drawing.Point(159, 168);
+            this.PB2.Name = "PB2";
+            this.PB2.Size = new System.Drawing.Size(100, 50);
+            this.PB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB2.TabIndex = 4;
+            this.PB2.TabStop = false;
+            this.PB2.Click += new System.EventHandler(this.PB2_Click);
+            // 
+            // Pb1
+            // 
+            this.Pb1.Image = global::EjemplomenuejercicioCondiciones.Properties.Resources._7eec7f71ef48724b2e92e0798bed9ecc;
+            this.Pb1.Location = new System.Drawing.Point(159, 87);
+            this.Pb1.Name = "Pb1";
+            this.Pb1.Size = new System.Drawing.Size(100, 50);
+            this.Pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pb1.TabIndex = 1;
+            this.Pb1.TabStop = false;
+            this.Pb1.Click += new System.EventHandler(this.Pb1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.PB2);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Pb1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.PB2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,6 +127,8 @@
         private System.Windows.Forms.PictureBox Pb1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnsalir;
+        private System.Windows.Forms.PictureBox PB2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
